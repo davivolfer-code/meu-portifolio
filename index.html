@@ -1,10 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Página Inicial</title>
-    </head>
-    <body>
-        <h1>Bem Vindo Ao Meu Portifólio Profissional</h1>
-    </body>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Davi Fernandes</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Davi Fernandes Geraldo</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#about">Sobre Mim</a></li>
+        <li><a href="#projects">Meus Projetos</a></li>
+        <li><a href="#contact">Contatos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Olá, eu sou <span>Davi Fernandes</span></h2>
+      <p>Desenvolvedor e estudante de Análise e Desenvolvimento de Sistemas.</p>
+      <a href="#projects" class="btn">Ver Projetos</a>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>Sobre mim</h2>
+    <p>Sou apaixonado por tecnologia e desenvolvimento de software. Estudo ADS e gosto de criar soluções práticas e criativas usando HTML, CSS, JavaScript e outras tecnologias.</p>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Meus Projetos</h2>
+    <div class="project-container">
+      <div class="project-card">
+        <img src="https://picsum.photos/400/250" alt="Projeto 1">
+        <h3>To-Do List</h3>
+        <p>Aplicação simples para gerenciar tarefas do dia a dia, com armazenamento local.</p>
+        <a href="https://github.com/seuusuario/todo-list" target="_blank" class="btn">Ver no GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://i.postimg.cc/1tHNq9ks/Logo-png.jpg" alt="Projeto 2">
+        <h3>Site para Praça Norte Celulares</h3>
+        <p>Site responsivo feito em HTML, Css e JavaScript</p>
+        <a href="https://github.com/davivolfer-code/Projeto-Pra-a-Norte-Celulares?tab=readme-ov-file" target="_blank" class="btn">Ver no GitHub</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://i.postimg.cc/T3MtXtLk/imagem-2025-11-25-115347034.png" alt="Projeto 3">
+        <h3>Meu Portifólio</h3>
+        <p>Este site que você está vendo agora! Criado para apresentar meus projetos e habilidades.</p>
+        <a href="#" class="btn">Voltar ao topo</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contatos</h2>
+    <p>Quer conversar sobre projetos ou oportunidades? Fale comigo!</p>
+    <div class="social-links">
+      <a href="https://github.com/davivolfer-code" target="_blank">💻 GitHub</a>
+      <a href="https://linkedin.com/in//davi-fernandes-geraldo-28897b2ab" target="_blank">🔗 LinkedIn</a>
+      <a href="https://w.app/xszkeh" target="_blank">📞 Whatsapp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Davi Fernandes Geraldo</p>
+  </footer>
+</body>
 </html>
