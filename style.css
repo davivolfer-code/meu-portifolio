@@ -96,32 +96,69 @@ section {
   line-height: 1.6;
 }
 
+/* --- AJUSTE DOS CARDS DE PROJETOS --- */
+
 .projects {
   background-color: #1e293b;
 }
 
 .project-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
   margin-top: 40px;
+  max-width: 1100px;        /* deixa tudo mais compacto */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-card {
   background-color: #0f172a;
-  border-radius: 12px;
-  padding-bottom: 20px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  padding-bottom: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
   transition: transform 0.3s;
+  max-width: 300px;         /* LIMITE de tamanho para não expandir demais */
+  margin: auto;
 }
 
 .project-card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-8px);
 }
 
 .project-card img {
   width: 100%;
-  border-radius: 12px 12px 0 0;
+  height: 150px;            /* REDUZI a altura da imagem */
+  object-fit: cover;        /* mantém bonito */
+  border-radius: 10px 10px 0 0;
+}
+
+.project-card h3 {
+  margin: 12px 0 6px;
+  font-size: 1rem;
+  color: #38bdf8;
+}
+
+.project-card p {
+  font-size: 0.85rem;
+  padding: 0 12px;
+  color: #cbd5e1;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #38bdf8;
+  color: #0f172a;
+  font-size: 0.85rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project-card .btn:hover {
+  background-color: #0ea5e9;
 }
 
 .contact {

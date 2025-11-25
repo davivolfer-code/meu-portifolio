@@ -8,3 +8,9 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+document.querySelector(".btn.topo")?.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
