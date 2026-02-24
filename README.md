@@ -74,8 +74,3 @@ Versão em inglês
 Animações e transições adicionais
 
 Ajustes finos de acessibilidade
-
-🤝 Contribuições
-
-Sugestões, opiniões e melhorias são totalmente bem-vindas!
-Sinta-se livre para abrir uma issue ou enviar um pull request.
