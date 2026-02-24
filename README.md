@@ -4,7 +4,7 @@ Bem-vindo ao repositório do meu portfólio!
 Este projeto reúne minha trajetória no desenvolvimento web, meus principais trabalhos e uma vitrine da minha evolução como desenvolvedor.
 
 🎨 Acesse o portfólio online:
-🔗 https://davivolfer-code.github.io/meu-portif-lio/
+🔗 https://davivolfer-code.github.io/meu-portifolio/
 
 ✨ Sobre o Projeto
 
